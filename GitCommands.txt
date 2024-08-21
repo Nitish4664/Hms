@@ -1,0 +1,82 @@
+C:\Users\NK\> git clone https://github.com/Nitish4664/Hms.git
+
+C:\Users\NK\>cd Hms
+
+C:\Users\NK\Hms>git pull
+Already up to date.
+
+C:\Users\NK\Hms>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\NK\Hms>git add README.md
+
+C:\Users\NK\Hms>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+C:\Users\NK\Hms>git commit -m "Added name change."
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'NK@DESKTOP-IUI20K4.(none)')
+
+C:\Users\NK\Hms>git config --global user.email "upadhyaylovesbharat@gmail.com"
+
+C:\Users\NK\Hms>
+C:\Users\NK\Hms>  git config --global user.name "nitish4664"
+
+C:\Users\NK\Hms>git commit -m "Added name change."
+[main bde00aa] Added name change.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\NK\Hms>git push
+info: please complete authentication in your browser...
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 294 bytes | 147.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Nitish4664/Hms.git
+   53a4c51..bde00aa  main -> main
+
+C:\Users\NK\Hms>
+
+
+===========================================================================================================
+
+C:\Users\NK\> git clone https://github.com/Nitish4664/Hms.git
+
+C:\Users\NK\>cd Hms
+
+C:\Users\NK\Hms>git pull
+
+<---- Make Changes ------>
+
+C:\Users\NK\Hms>git status
+
+C:\Users\NK\Hms>git add README.md(file changes)
+
+C:\Users\NK\Hms>git commit -m "Added name change.(your message)"
+
+C:\Users\NK\Hms>git push
